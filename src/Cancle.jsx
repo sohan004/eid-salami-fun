@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cancle = () => {
     return (
@@ -14,6 +15,7 @@ const Cancle = () => {
                 <li>তোমার জীবন উল্টা দিকে চলবে</li>
                 <li>এইসব অভিশাপ থেকে বাচতেঁ চাইলে তাড়াতাড়ি গিয়ে সোহান কে ঈদের সালামি দিয়ে আসো</li>
             </ul>
+            <Link to="/option"><button className="btn btn-primary">জী সালামি দিতে চাই</button> </Link>
 
         </div>
     );
