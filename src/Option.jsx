@@ -8,7 +8,7 @@ const Option = () => {
         <>
             <div className='container'>
                 <h3 className='bg-light p-3 bg-opacity-50'>
-                    তুমি সোহান কে কিসের মাধ্যমে সামামি দিতে চাও?
+                    তুমি সোহান কে কিসের মাধ্যমে সালামি দিতে চাও?
                 </h3>
                 <div className='text-center d-flex justify-content-center gap-4'>
                     <Link to='/bkash'><button className="btn btn-light">< img style={{width: '100px'}} className=' ' src={bkash} alt="" /></button></Link>
